@@ -140,7 +140,7 @@ console.log(poly(polygon, "#0071cd"));
 
 const center_x = min_x * width / (min_x - max_x);
 const center_y = min_y * height / (min_y - max_y);
-const radius = 200;
+const radius = 230;
 console.log("<g transform=\"translate(" + Math.round(center_x) + "," + Math.round(center_y) + ") scale(" + (radius / 43) + ")\"><circle r=\"37.5\" style=\"stroke:#fff;stroke-width:11;fill:#0071cd\"/><path d=\"M-14.5,-17.5v35h16.5a17.5,17.5 0 0,0 0,-35zM-4.5,-9h5a9,9 0 0,1 0,18h-5z\" style=\"fill:#fff\"/></g>");
 
 console.log("</svg>");
